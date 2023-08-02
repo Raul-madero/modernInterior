@@ -8,8 +8,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./build/css/app.css">
   </head>
   <body>
-
+    <header class="header">
+      <h2 class="header__logo">This Interior</h2>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Collection</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__menu">
+        <svg width="40" height="40" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="2" x2="20" y2="2" stroke="#FFF" stroke-width="4"/>
+          <line y1="18" x2="20" y2="18" stroke="#FFF" stroke-width="4"/>
+          <line y1="10" x2="20" y2="10" stroke="#FFF" stroke-width="4"/>
+          </svg>
+      </div>
+    </header>
+    <main class="contenedor">
+      <section class="informacion">
+        <h1 class="informacion__titulo">Modern interior</h1>
+        <p class="informacion__texto">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+        <p class="informacion__mas">Read more &rarr;</p>
+      </section>
+      <section class="inferior">
+          <img src="./build/img/photo1.avif" alt="Foto de habitacion" class="imagen">
+        <div class="designer">
+          <img src="./build/img/photo2.avif" alt="Aliza foto" class="designer__foto">
+          <div class="designer__info">
+            <p class="designer__info--name">Aliza Webber</p>
+            <p class="designer__info--prof">Interior designer</p>
+          </div>
+          <h3 class="designer__descripcion">Designed in 2020 by Aliza Webber</h3>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
